@@ -1,3 +1,5 @@
+# 缓存清除脚本
+
 work_path=/home/you/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/commercial-paper
 
 # 颜色输出
