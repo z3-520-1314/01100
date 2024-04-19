@@ -35,9 +35,9 @@ function delete_clear(){
         g "$1" node_modules存在，准备删除！
         rm -rf $2/node_modules
         if [ $? -eq 0 ]; then
-            g "$1"" --> "删除成功
+            g "$1" 删除成功
         else
-            r "$1"" --> "删除失败
+            r "$1" 删除失败
         fi
     else
         r "$1" node_modules已经删除
